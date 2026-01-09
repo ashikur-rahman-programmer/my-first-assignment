@@ -198,3 +198,40 @@ nav button:hover {
   color: #000;
   text-transform: capitalize;
 }
+
+/* Brain section */
+.section-brain {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 60px;
+  margin-bottom: 120px;
+}
+
+.brain-content h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #30b868;
+  text-transform: uppercase;
+}
+
+.brain-content h2 {
+  font-size: 52px;
+  text-transform: capitalize;
+  margin: 16px 0;
+}
+
+.brain-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.brain-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
