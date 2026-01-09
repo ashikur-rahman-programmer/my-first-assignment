@@ -148,9 +148,53 @@ nav button:hover {
   background: transparent;
 }
 .btns .btn-common,
-.btn-unique {
+.btns .btn-unique {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
   background: none;
+}
+
+/*  */
+.section-note {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-note h2 {
+  font-size: 52px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.para {
+  font-size: 16px;
+  line-height: 26px;
+  color: #00000079;
+}
+
+.note-cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 26px;
+  margin: 44px 0 120px 0;
+}
+.note-cards .card {
+  padding: 40px 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #0000004d;
+}
+
+.card figure img {
+  background: #f95555;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin: 16px 0;
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
 }
