@@ -127,6 +127,8 @@ nav button:hover {
   gap: 8px;
   padding: 15px 20px;
   border-radius: 8px;
+  box-shadow: 0 2px 10px #00000048;
+
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -234,4 +236,48 @@ nav button:hover {
   gap: 5px;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* easy access section */
+.section-easy-access {
+  background: #f7f6f2;
+  text-align: center;
+  padding: 80px 40px;
+  border-radius: 10px;
+  margin-bottom: 120px;
+}
+
+.section-easy-access h2 {
+  font-size: 42px;
+  text-transform: capitalize;
+  margin: 16px 0;
+}
+
+.easy-btn {
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 24px 0 16px 0;
+  background: #30b868;
+  cursor: pointer;
+  box-shadow: 0 2px 10px #00000048;
+  transition: all 0.3s;
+}
+
+.easy-btn .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 18px;
+  color: #fff;
+  background: none;
+  cursor: pointer;
+}
+.easy-btn:hover {
+  background-color: #109447;
+}
+.easy-access-content span {
+  display: inline-block;
+  padding: 0 5px;
 }
